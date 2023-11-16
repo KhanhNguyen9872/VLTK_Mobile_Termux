@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 unset LD_PRELOAD
+cd /data/data/com.termux/files/usr/share
 command="proot"
 command+=" -k 4.14.81"
 command+=" --link2symlink"
